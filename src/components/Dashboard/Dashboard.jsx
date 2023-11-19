@@ -20,7 +20,7 @@ const Dashboard = () => {
     const [lat, lon] = data.value.split(" ");
 
     fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${
+      `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${
         import.meta.env.VITE_APP_API_KEY
       }&units=metric`
     )

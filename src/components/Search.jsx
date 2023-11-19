@@ -13,7 +13,7 @@ const Search = ({onSearch}) => {
   };
 
   const loadOption =(inputValue)=>{
-    return fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&limit=5&appid=${import.meta.env.VITE_APP_API_KEY}`)
+    return fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&limit=5&appid=${import.meta.env.VITE_APP_API_KEY}`)
     .then(response => response.json())
     .then(response => {
       return {
