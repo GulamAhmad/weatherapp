@@ -1,3 +1,3 @@
 # Weather app with React 
 
-Live Demo : ther5daysapp.netlify.app
+Live Demo : https://weather5daysapp.netlify.app/
